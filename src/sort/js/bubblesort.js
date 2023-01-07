@@ -14,7 +14,5 @@ function bubbleSort(list) {
 }
 
 console.log(
-    bubbleSort(process.argv.slice(2).map(function (x) { 
-        return parseInt(x, 10); 
-    })).join(" ")
+    bubbleSort(process.argv.slice(2).map(Number)).join(" ")
 )

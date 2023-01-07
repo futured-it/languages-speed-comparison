@@ -11,7 +11,5 @@ function gnomeSort(list) {
 }
 
 console.log(
-    gnomeSort(process.argv.slice(2).map(function (x) { 
-        return parseInt(x, 10); 
-    })).join(" ")
+    gnomeSort(process.argv.slice(2).map(Number)).join(" ")
 )
