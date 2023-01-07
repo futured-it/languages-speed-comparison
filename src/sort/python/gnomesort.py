@@ -8,7 +8,6 @@ def gnomeSort(list):
         else:
             list[pos], list[pos-1] = list[pos-1], list[pos]
             pos -= 1
-        print(*list)
     return list
 
 print(*gnomeSort([ int(x) for x in argv[1:] ]))
