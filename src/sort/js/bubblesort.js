@@ -1,6 +1,6 @@
 function bubbleSort(list) {
-    let n = list.length
-    let sorted = false
+    let n = list.length;
+    let sorted = false;
     while (!sorted) {
         sorted = true
         for (let i = 0; i < n-1; i++) {
@@ -9,8 +9,8 @@ function bubbleSort(list) {
                 sorted = false
             }
         }
-    }
-    return list
+    };
+    return list;
 }
 
 console.log(
